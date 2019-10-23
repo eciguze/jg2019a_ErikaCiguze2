@@ -1,4 +1,4 @@
-package jg_lv;
+package jg_lv.HomeWork;
 
 import java.util.Random;
 
