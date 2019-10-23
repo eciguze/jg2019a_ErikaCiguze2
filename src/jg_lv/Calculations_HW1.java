@@ -2,7 +2,7 @@ package jg_lv;
 
 import java.util.Random;
 
-public class HomeWork1 {
+public class Calculations_HW1 {
         public static void main(String[] args) {
             Random randomGenerator = new Random();
             double firstUnit = randomGenerator.nextInt(75);
