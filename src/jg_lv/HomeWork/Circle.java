@@ -1,4 +1,4 @@
-package jg_lv;
+package jg_lv.HomeWork;
 
 public class Circle{
     double radius;
@@ -10,6 +10,6 @@ public class Circle{
         this.radius = radius;
     }
     double calculateArea(double radius){
-        return 43.14*radius*radius;
+        return 3.14*radius*radius;
     }
 }
