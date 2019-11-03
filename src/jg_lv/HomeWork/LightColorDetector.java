@@ -1,8 +1,10 @@
 package jg_lv.HomeWork;
 
 public class LightColorDetector {
+    //šis lauks nav nepieciešams, jo viļņa garumu noteikšānu nekādi neietekmē
     private int wavelength;
 
+    //ši metode nav izmantota, vajag pārbaudīt testa klasē izaukumu
     public void isDetected(int wavelength) {
         if ((wavelength <= 350) && (wavelength < 450)) {
             System.out.println("Violeta krāsa");
@@ -21,6 +23,7 @@ public class LightColorDetector {
         }
     }
 
+//    šis  get nav nepieciešms
     public int getWavelength() {
         return wavelength;
     }

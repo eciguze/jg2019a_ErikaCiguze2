@@ -2,6 +2,7 @@ package jg_lv.HomeWork;
 
 import java.util.Random;
 
+//Ok
 public class Calculations_HW1 {
         public static void main(String[] args) {
             Random randomGenerator = new Random();

@@ -7,7 +7,7 @@ public class LightColorDetectorTest {
 
         lightColorDetector.setWavelength(513);
 
-        System.out.println("Light color is " + lightColorDetector);
+        System.out.println("Light color is " + lightColorDetector); //šeit trūkst metodes izsaukuma
 
     }
 }

@@ -1,5 +1,6 @@
 package jg_lv.HomeWork;
 
+//lietojam "ctrl + alt + l"
 public class Circle{
     double radius;
 
