@@ -1,35 +1,22 @@
 package jg_lv.HomeWork;
 
 public class LightColorDetector {
-    //šis lauks nav nepieciešams, jo viļņa garumu noteikšānu nekādi neietekmē
-    private int wavelength;
-
-    //ši metode nav izmantota, vajag pārbaudīt testa klasē izaukumu
-    public void isDetected(int wavelength) {
-        if ((wavelength <= 350) && (wavelength < 450)) {
-            System.out.println("Violeta krāsa");
+    public String detect(int wavelength) {
+        if ((wavelength <= 380) && (wavelength < 450)) {
+            return ("Violet ");
         } else if ((wavelength <= 450) && (wavelength < 495)) {
-            System.out.println("Zila krāsa");
+            return ("Blue ");
         } else if ((wavelength <= 495) && (wavelength < 570)) {
-            System.out.println("Zaļa krāsa");
+            return ("Green ");
         } else if ((wavelength <= 570) && (wavelength < 590)) {
-            System.out.println("Dzeltena krāsa");
+            return ("Yellow");
         } else if ((wavelength <= 590) && (wavelength < 620)) {
-            System.out.println("Oranža krāsa");
+            return ("Orange ");
         } else if ((wavelength <= 620) && (wavelength < 750)) {
-            System.out.println("Sarkana krāsa");
+            return ("Red ");
         } else {
-            System.out.println("Nav izdevies noteikt krāsu! ");
+            return ("Color has not been detected! ");
         }
-    }
-
-//    šis  get nav nepieciešms
-    public int getWavelength() {
-        return wavelength;
-    }
-
-    public void setWavelength(int wavelength) {
-        this.wavelength = wavelength;
     }
 }
 
