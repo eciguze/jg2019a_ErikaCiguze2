@@ -1,5 +1,6 @@
 package jg_lv.HomeWork;
 
+//Ok
 public class Car {
     String color;
     String manufacturer;

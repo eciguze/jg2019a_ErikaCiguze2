@@ -1,5 +1,7 @@
 package jg_lv.HomeWork;
 
+//testā redzams ka cena ir 0.0, kad tai butu jabūt 1.89
+//un atlaide ir daļskaitlis lai gan bija jābut veselam skaitlim
 public class ProductTest {
     public static void main(String[] args) {
         Product product = new Product();

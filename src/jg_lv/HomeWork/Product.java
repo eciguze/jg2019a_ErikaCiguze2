@@ -17,6 +17,7 @@ public class Product {
         return regularPrice;
     }
 
+    //metode parametra nosaukums nav labs, drošvien domaji "regularPrice"
     public void setRegularPrice(double v) {
         this.regularPrice = regularPrice;
     }
